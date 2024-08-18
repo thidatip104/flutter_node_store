@@ -19,7 +19,6 @@
 
 **Login Screen**
 
-
 ![image](https://github.com/user-attachments/assets/3f07ef8e-433b-432e-a441-719a1b7c95d2)
 ![image](https://github.com/user-attachments/assets/a05f2efa-c7c7-42cd-b6f1-09268e827dac)
 
