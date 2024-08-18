@@ -1,16 +1,11 @@
-# flutter_node_store
+**GET Method**
+![image](https://github.com/user-attachments/assets/507be0b2-a7a4-4c6c-8795-05ab338a8971)
 
-A new Flutter project.
+**POST Method**
+![image](https://github.com/user-attachments/assets/eabac55e-b2d0-4a28-872c-ed0bb6470c93)
 
-## Getting Started
+**PUT Method**
+![image](https://github.com/user-attachments/assets/b938ab02-13f7-457e-b502-92549e14f427)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**DELETE Method**
+![image](https://github.com/user-attachments/assets/c0616d46-50d8-45e7-9280-32603adcf812)
