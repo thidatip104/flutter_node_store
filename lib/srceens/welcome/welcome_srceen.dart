@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_node_store/app_router.dart';
 // import 'package:flutter_node_store/app_router.dart'; 
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});
@@ -21,6 +22,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
 
     // ไปยังหน้า Login แบบเปิดซ้อนทับหน้าเดิม
     // Navigator.pushNamed(context, AppRouter.login);
+
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool('welcomeStatus', true);
 
     // ไปยังหน้า Login แบบเปิดแบบไม่มีปุ่มย้อนกลับ แทนที่หน้าเดิม
     Navigator.pushReplacementNamed(context, AppRouter.login); // เปิดแบบไม่มีปุ่มย้อนกลับ
